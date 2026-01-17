@@ -1,0 +1,169 @@
+\documentclass[9pt]{article}
+
+% ---------------- PAGE ----------------
+\usepackage[a4paper,
+top=0.85cm,
+bottom=0.85cm,
+left=1.1cm,
+right=1.1cm]{geometry}
+
+\usepackage{paracol}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage{helvet}
+\usepackage{setspace}
+
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0pt}
+\linespread{0.94}
+\raggedbottom
+
+% ---------------- COLORS ----------------
+\definecolor{primary}{HTML}{1E88E5}
+\definecolor{textgray}{HTML}{2E2E2E}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=primary
+}
+
+% ---------------- SECTIONS ----------------
+\titleformat{\section}
+{\color{primary}\bfseries\normalsize}
+{}{0pt}{}
+[\vspace{1pt}\hrule\vspace{1pt}]
+
+\titlespacing{\section}{0pt}{5pt}{3pt}
+
+% ---------------- LISTS ----------------
+\setlist[itemize]{
+  leftmargin=10pt,
+  itemsep=1.2pt,
+  topsep=1.2pt
+}
+
+% ================= DOCUMENT =================
+\begin{document}
+\color{textgray}
+
+% ---------------- HEADER ----------------
+\begin{minipage}{0.76\textwidth}
+{\LARGE \textbf{MOHAMMED YASAR ARAFATH A}}\\
+\large\faPhone\ +91 6374945805 \ \faMapMarker*\ Erode, India \\
+\faEnvelope\ \href{mailto:arafathmohammed133@gmail.com}{arafathmohammed133@gmail.com}\\
+\faLinkedin\ \href{https://www.linkedin.com/in/mohammed-yasar-arafath-06b788326}{linkedin.com/in/mohammed-yasar-arafath}\\
+\faGithub\  \href{https://github.com/ArafathMohammed}{github.com/ArafathMohammed}\\
+\end{minipage}
+\hfill
+\begin{minipage}{0.2\textwidth}
+\includegraphics[width=2.25 cm]{WHITE COAT}
+\end{minipage}
+
+\vspace{4pt}
+
+% ---------------- TWO COLUMNS ----------------
+\columnratio{0.58}
+\begin{paracol}{2}
+
+% ===== LEFT COLUMN =====
+\section{SUMMARY}
+I am an engineer with robust mechanical expertise and strong hands-on experience in mechatronics systems. My work focuses on research-driven product development, simulation, validation, and manufacturing optimization. I thrive in multidisciplinary environments and continuously upskill to deliver reliable engineering solutions.
+
+\section{EXPERIENCE}
+
+\textbf{R\&D Associate Engineer Trainee – Replacement Market Segment}\\
+\textcolor{primary}{L.G. Balakrishnan \& Bros Ltd (Rolon)}\\
+\textcolor{primary}{\faMapMarker* Coimbatore}\hfill\faCalendar{ 01/2021 – 08/2023}\ 
+\begin{itemize}
+\item Reverse engineering and physical benchmarking of competitor products
+\item New product development from concept to production
+\item Root cause analysis for field and manufacturing failures
+\item Technical documentation and design validation reports
+\item Developed: 11-Geared bicycle chains, racing and adventure bike chains, 3D chains, EV spares, chain dirt remover, chain lubricator, cut \& joint tools, chain tensioners
+\end{itemize}
+
+\textbf{Intern – Service Engineering}\\
+\textcolor{primary}{Bosch Diesel Care}\\
+\textcolor{primary}{\faMapMarker* Pollachi}\hfill\faCalendar{ 08/2024 – 09/2024}\ 
+
+\begin{itemize}
+\item Vehicle diagnostics for commercial and passenger vehicles
+\item Fuel injector, fuel pump, and common rail system testing
+\item Exposure to diesel engine calibration and fault analysis
+\end{itemize}
+
+\textbf{R\&D Post Graduate Intern – Trailer Systems}\\
+\textcolor{primary}{ZF Commercial Vehicle Control Systems Ltd}\\
+\textcolor{primary}{\faMapMarker* Chennai}\hfill\faCalendar{ 01/2025 – 09/2025}\ 
+\begin{itemize}
+\item Product testing, validation, and system-level simulations
+\item Tire Pressure Monitoring System (TPMS) development
+\item Algorithm development for cost-per-kilometer estimation
+\item Mixed suspension system simulation using SIMBA (internal software)
+\end{itemize}
+
+\section{EDUCATION}
+\textbf{Master of Engineering – Mechatronics Engineering}\\
+Anna University, MIT Campus\hfill\faCalendar{ 2021–2023 }\\ 
+CGPA - 8.11/10
+
+\textbf{Bachelor of Engineering – Mechanical Engineering}\\
+Nandha College of Engineering\hfill\faCalendar{ 2017–2021 }\\ 
+CGPA - 7.92/10
+
+\section{LANGUAGES}
+Tamil,
+English,
+Hindi,
+Urdu,
+Arabic
+
+
+% ===== RIGHT COLUMN =====
+\switchcolumn
+
+\section{PROJECTS}
+\textbf{PG Main Project}\\
+Patient specific hand gesture recognition based on artificial feed forward neural network and EMG:
+\begin{itemize} 
+\item Designed and fabricated a string-actuated hardware prototype of a prosthetic hand utilizing EMG sensors for gesture acquisition.
+\item Performed signal processing and developed a Machine Learning (ML) algorithm using Feed-Forward Neural Networks, achieving 81.25\% accuracy.
+\item Implemented cloud-based decision processing to enable standalone operation and optimize system latency.
+\end{itemize}
+
+\textbf{PG Mini Projects}
+\begin{itemize}
+\item Adaptive Model Predictive Control (MPC) of AGV in MATLAB/Simulink
+\item Low-cost vision-based navigation aid for visually impaired users
+\item Quadcopter modeling and simulation
+\end{itemize}
+
+\textbf{UG Main Project}\\
+Optimization of CNC machining parameters to reduce rejection percentage and improve productivity.
+
+\section{KEY ACHIEVEMENTS}
+\faStar\ \textbf{Innovative Product Development}\\
+Led development and launch of multiple automotive and bicycle components that successfully entered the replacement market and met cost, durability, and performance targets.
+
+\section{SKILLS}
+\begin{tabular}{l l}
+Gmail & MATLAB \\
+Simulink & SolidWorks \\
+Python & AWS Cloud \\
+IoT & EC2 \\
+PLC & 3D Modeling \\
+Arduino & Proteus \\
+Raspberry Pi & AutoCAD \\
+PTC Creo & Robotics
+\end{tabular}
+
+\section{INTERESTS}
+Cycling, Cooking
+
+\end{paracol}
+
+\end{document}
